@@ -30,7 +30,6 @@ class Node:
         '''
         return len(self.children)>0
 
-    ########################### to Implement ###########################
     def getValue(self):
         '''
         -Return-
@@ -54,7 +53,6 @@ class Node:
                 best_score, best_action, best_child = score, action, child
             
         return best_action
-    ###################################################################
 
     def select_child(self,verbose=False):
         '''
